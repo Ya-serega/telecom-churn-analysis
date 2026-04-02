@@ -21,6 +21,9 @@
 ## Данные
 
 Используется датасет **Telco Customer Churn Dataset** из Kaggle.
+````text
+https://www.kaggle.com/datasets/vedatgul/telco-churn-dataset
+````
 
 ### Основные характеристики
 
