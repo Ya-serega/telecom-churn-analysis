@@ -146,30 +146,20 @@ https://www.kaggle.com/datasets/vedatgul/telco-churn-dataset
 telecom-churn-analysis/
 │
 ├── data/                    # Исходные данные
-│   └── telco_churn.csv
+│   └── Telco_Churn_Dataset.csv
+│   └── telecom.db
 │
 ├── notebooks/               # Основной анализ
-│   └── telecom_analysis.ipynb
+│   ├── telecom_data_analysis.ipynb
+│   ├── telecom_data_analysis.html        #открывается просто в браузере
+│   ├── telecom_sql_analysis.ipynb
+│   └── telecom_sql_analysis.html         #открывается просто в браузере
 │
 ├── src/                     # Переиспользуемые Python-модули
 │   ├── data_loader.py
 │   ├── data_cleaner.py
 │   ├── eda.py
 │   └── visualizer.py
-│
-├── sql/                     # SQL-запросы (опционально, плюс к проекту)
-│   └── sql_queries.sql
-│
-├── images/                  # Готовые визуализации
-│   ├── 01_churn_distribution.png
-│   ├── 02_churn_by_contract.png
-│   ├── 03_churn_by_tenure.png
-│   ├── 04_correlation_heatmap.png
-│   ├── 05_top_churn_factors.png
-│   └── 06_dashboard.png
-│
-├── reports/                 # Артефакты анализа
-│   └── analysis_report.json
 │
 ├── main.py                  # Точка входа (pipeline без notebook)
 ├── requirements.txt
